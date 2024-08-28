@@ -1,0 +1,372 @@
+.my-self-project{
+    min-height: 1500px;
+}
+.outer_title {
+    position: relative;
+    max-width: 80%;
+    height: 100px;
+
+
+    margin: 0 auto;
+    border-radius: 20px 20px 0px 0px;
+    background-color: rgb(0, 106, 165);
+
+}
+
+.outer_title .personal_img {
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    right: 240px;
+    width: 90px;
+    height: 90px;
+
+}
+
+.outer_title h1 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+
+}
+
+.outer_title h1:hover {
+    transform: scale(1.3);
+    transition: transform 0.3s ease;
+}
+
+/*---------------- .left_title ----------------------*/
+.left_title {
+    position: absolute;
+
+    top: 1px;
+    left: 20px;
+    width: 100px;
+    height: 80px;
+}
+
+.sexual_section {
+
+    display: flex;
+    position: absolute;
+    height: 17px;
+
+    top: 0px;
+    transition: transform 0.3s ease;
+}
+
+.sexual_section .person_img {
+
+    top: 0px;
+    width: 20px;
+    height: 20px;
+}
+
+.sexual_section p1 {
+    position: relative;
+    top: 2px;
+    font-size: 12px;
+
+
+
+}
+
+.age_section {
+    display: flex;
+    position: absolute;
+    height: 17px;
+    top: 25px;
+
+    transition: transform 0.3s ease
+}
+
+.age_section .date_img {
+    width: 17px;
+    height: 17px;
+
+}
+
+.age_section p1 {
+    position: absolute;
+    left: 20px;
+
+}
+
+.phone_section {
+    display: flex;
+    position: absolute;
+    height: 17px;
+    top: 50px;
+
+
+    transition: transform 0.3s ease
+}
+
+.mail_section {
+    display: flex;
+    position: absolute;
+    height: 17px;
+    top: 75px;
+
+
+    transition: transform 0.3s ease;
+}
+
+
+
+
+.sexual_section:hover {
+    transform: scale(1.2);
+    color: rgb(112, 211, 186)
+}
+
+.age_section:hover {
+    transform: scale(1.2);
+    color: rgb(94, 177, 180)
+}
+
+.phone_section:hover {
+    transform: scale(1.2);
+    color: rgb(105, 46, 214)
+}
+
+.mail_section:hover {
+    transform: scale(1.2);
+    color: rgb(120, 57, 150);
+
+}
+
+
+/*----------------.inner_title ----------------------*/
+.second_title {
+
+    position: relative;
+    max-width: 80%;
+    min-height: 500px;
+    margin: 0 auto;
+    top: 0px;
+    border-radius: 0px 0px 20px 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.second_title h2 {
+    font-size: 15px;
+    text-align: right;
+}
+
+.second_title_top {
+    max-width: 80%;
+    min-height: 500px;
+    margin: 0 auto;
+}
+
+.second_title_top .h1 {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    width: 100px;
+    font-size: 35px;
+    margin: 5px 0px 5px 0px;
+
+}
+.second_title_top .h2{
+    position: absolute;
+    top: 330px;
+    left: 30px;
+    width: 100px;
+    font-size: 35px;
+    margin: 5px 0px 5px 0px;
+
+}
+.second_title_top .h3{
+    position: absolute;
+    top: 810px;
+    left: 30px;
+    width: 100px;
+    font-size: 35px;
+    margin: 5px 0px 5px 0px;
+
+}
+
+
+/* -----------myself----------- */
+.myself {
+    position: relative;
+    top: 100px;
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+.myself h2 {
+    position: absolute;
+    top: -50px;
+    font-size: 20px;
+    padding: 15px 0px 15px 0px;
+}
+.myself p2{
+    font-size: 15px;
+}
+.myself p3{position: absolute;
+    top: 120px;
+    font-size: 15px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------- skill_section-----------*/
+.skill_section_1 {
+    position: relative;
+    top: 350px;
+    max-width: 100%;
+    max-height: 100%;
+
+
+}
+
+
+.skill_section_1 p1 {
+    position: relative;
+    left: 0px;
+    top: -20px;
+    font-size: 30px;
+    padding: 15px 0px 15px 0px;
+}
+
+.skill_section_1 p2 {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    font-size: 20px;
+    padding: 5px 0px 5px 0px;
+}
+ 
+
+
+
+
+.skill_section_2 {
+    position: absolute;
+    top: 438px;
+    max-width: 100%;
+    max-height: 100%;
+    right: 450px;
+
+
+}
+
+
+.skill_section_2 p1 {
+    position: relative;
+    left: 0px;
+    top: -20px;
+    font-size: 30px;
+    padding: 15px 0px 15px 0px;
+}
+
+.skill_section_2 p2 {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    font-size: 20px;
+    padding: 5px 0px 5px 0px;
+} 
+
+
+
+
+
+.skill_section_3 {
+    position: relative;
+    top: 458px;
+    max-width: 100%;
+    max-height: 100%;
+    left: 0px;
+
+
+}
+
+
+.skill_section_3 p1 {
+    position: relative;
+    left: 0px;
+    top: -20px;
+    font-size: 30px;
+    padding: 15px 0px 15px 0px;
+}
+
+.skill_section_3 p2 {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    font-size: 20px;
+    padding: 5px 0px 5px 0px;
+}
+
+/* ------------------job_request----------------- */
+
+
+.job_request {
+    position: relative;
+    top: 640px;
+    max-width: 100%;
+    max-height: 100%;
+font-size: 30px;
+
+}
+
+.job_request p1{position: absolute;
+
+}
+
+.job_request p2{position: absolute;
+font-size: 25px;
+}
+.job_request p3{position: absolute;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* ------------------hr--------------- */
+.hr_1 {
+    position: relative;
+    top: 50px;
+
+}
+
+.hr_2 {
+    position: relative;
+    border: none;
+    top: 260px;
+
+}
+.hr_3{
+    position: relative;
+    top: 320px;
+
+}
+.hr_4{
+    position: relative;
+    top: 520px;
+}
+.hr_5{
+    position: relative;
+    top: 750px;
+}
